@@ -60,7 +60,7 @@ header > p {
 
 .meme {
   position: relative;
-  width: 80vh;
+  width: 100%;
   margin: auto;
 }
 
@@ -111,7 +111,7 @@ header > p {
 
 .meme-form > input {
   width: 45%;
-  height: 5%;
+  height: 20%;
 }
 
 .meme-form > button {
@@ -148,7 +148,8 @@ header > p {
 }
 
 .meme-background {
-  background-color: #282c34;
+  background-color: #0a0e18;
+  width: 100%;
   min-height: 100vh;
   background: #18c9ff;
   background: -webkit-linear-gradient(to left, #2a0845, #18c9ff);
