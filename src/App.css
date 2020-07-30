@@ -58,6 +58,15 @@ header > p {
   margin-left: 60px;
 }
 
+.meme-background {
+  background-color: #0a0e18;
+  width: 100%;
+  min-height: 100vh;
+  background: #18c9ff;
+  background: -webkit-linear-gradient(to left, #2a0845, #18c9ff);
+  background: linear-gradient(to left, #2a0845, #18c9ff);
+}
+
 .meme {
   position: relative;
   width: 100%;
@@ -65,7 +74,7 @@ header > p {
 }
 
 .meme > img {
-  width: 100%;
+  width: 60vh;;
 }
 
 .meme > h2 {
@@ -104,54 +113,47 @@ header > p {
 .meme-form {
   width: 90%;
   margin: auto;
-  display: flex;
+  display: flex;  
   justify-content:  space-between;
-
 }
 
 .meme-form > input {
+  margin: 5%;
   width: 45%;
-  height: 20%;
+  height: 5vh;
+  font-size: 2vh;
 }
 
 .meme-form > button {
-  border: none;
+  margin: 5%;
+  height: 5vh;
   font-family: monospace;
-  font-size: 25px;
+  font-size: 2vh;
   letter-spacing: 1.5px;
   color: white;
-  background: #6441A5;
+  background: #000;
 }
 
 .meme-form > input::-webkit-input-placeholder {
   font-family: monospace;
-  font-size: 25px;
+  font-size: 2vh;
   text-align: cen
 }
 
 .meme-form > input::-moz-placeholder {
   font-family: monospace;
-  font-size: 25px;
+  font-size: 2vh;
   text-align: cen
 }
 
 .meme-form > input:-ms-input-placeholder {
   font-family: monospace;
-  font-size: 25px;
+  font-size: 2vh;
   text-align: cen
 }
 
 .meme-form > input:-moz-placeholder {
   font-family: monospace;
-  font-size: 25px;
+  font-size: 2vh;
   text-align: cen
-}
-
-.meme-background {
-  background-color: #0a0e18;
-  width: 100%;
-  min-height: 100vh;
-  background: #18c9ff;
-  background: -webkit-linear-gradient(to left, #2a0845, #18c9ff);
-  background: linear-gradient(to left, #2a0845, #18c9ff);
 }
