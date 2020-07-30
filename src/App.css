@@ -103,7 +103,7 @@ header > p {
 
 .meme-form {
   width: 90%;
-  margin: 5% auto;
+  margin: auto;
   display: flex;
   justify-content:  space-between;
 
