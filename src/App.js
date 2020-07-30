@@ -1,5 +1,4 @@
 import React from 'react';
-import logo from './logo.svg';
 import Header from './Header.js';
 import MemeGenerator from './MemeGenerator.js';
 import './App.css';
@@ -7,8 +6,8 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <Header />;
-      <MemeGenerator />;
+      <Header />
+      <MemeGenerator />
     </div>
   );
 }
