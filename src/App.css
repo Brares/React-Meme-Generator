@@ -60,12 +60,12 @@ header > p {
 
 .meme {
   position: relative;
-  width: 60%;
+  width: 80vh;
   margin: auto;
 }
 
 .meme > img {
-  width: 60%;
+  width: 100%;
 }
 
 .meme > h2 {
@@ -103,7 +103,7 @@ header > p {
 
 .meme-form {
   width: 90%;
-  margin: 20px auto;
+  margin: 5% auto;
   display: flex;
   justify-content:  space-between;
 
@@ -111,7 +111,7 @@ header > p {
 
 .meme-form > input {
   width: 45%;
-  height: 40px;
+  height: 5%;
 }
 
 .meme-form > button {
