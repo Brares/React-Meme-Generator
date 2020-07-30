@@ -7,7 +7,7 @@ function Header() {
         <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Meme Generator
+          Random Meme Generator
         </p>
 
       </header>
